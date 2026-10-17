@@ -1,0 +1,1 @@
+Synthetic fixture: one input command moves a marker one cell. Not evidence of any original game.

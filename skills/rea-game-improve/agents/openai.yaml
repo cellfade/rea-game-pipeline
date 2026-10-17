@@ -1,0 +1,4 @@
+interface:
+  display_name: "REA Game Improve"
+  short_description: "Improve workflows through reviewed regressions"
+  default_prompt: "Use $rea-game-improve for this game reconstruction milestone, with traceable evidence and explicit verification gaps."

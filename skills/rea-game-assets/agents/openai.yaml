@@ -1,0 +1,4 @@
+interface:
+  display_name: "REA Game Assets"
+  short_description: "Move licensed concepts into validated game assets"
+  default_prompt: "Use $rea-game-assets for this game reconstruction milestone, with traceable evidence and explicit verification gaps."

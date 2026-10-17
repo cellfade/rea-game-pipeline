@@ -1,0 +1,9 @@
+{
+  "note": "Template only; store real values outside the public package. Not executed by the harness.",
+  "target_local_path": null,
+  "private_evidence_root": null,
+  "tool_versions": {},
+  "approved_capabilities": [],
+  "deployment_project": null,
+  "quality_baseline": null
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "REA Game Audit"
+  short_description: "Audit fidelity, playability, assets, and release"
+  default_prompt: "Use $rea-game-audit for this game reconstruction milestone, with traceable evidence and explicit verification gaps."

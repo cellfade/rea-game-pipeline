@@ -1,0 +1,4 @@
+interface:
+  display_name: "REA Game Pipeline"
+  short_description: "Coordinate evidence-led game reconstruction"
+  default_prompt: "Use $rea-game-pipeline for this game reconstruction milestone, with traceable evidence and explicit verification gaps."

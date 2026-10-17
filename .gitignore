@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+.local/
+pipeline.local.json
+runs/
+private-evidence/
+*.rom
+*.sfc
+*.smc
+*.nes
+*.iso
+*.blend
+*.diz
+.DS_Store

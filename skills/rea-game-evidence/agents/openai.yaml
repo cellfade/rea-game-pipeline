@@ -1,0 +1,4 @@
+interface:
+  display_name: "REA Game Evidence"
+  short_description: "Trace game rules to reproducible evidence"
+  default_prompt: "Use $rea-game-evidence for this game reconstruction milestone, with traceable evidence and explicit verification gaps."

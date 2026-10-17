@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "max_workers": 2,
+  "tasks": [
+    {
+      "id": "investigate",
+      "depends_on": [],
+      "allowed_files": [
+        "evidence"
+      ],
+      "resources": [
+        "target-session"
+      ],
+      "status": "done",
+      "revision": "203350e3c90f75b8b6f0d7c09057c596c2a6bbe0b2445a2f5bb08d1182001b9e",
+      "author": "builder",
+      "required_tests": [
+        "scenario-replay"
+      ],
+      "evidence_ids": [
+        "fixture-observation"
+      ]
+    }
+  ],
+  "release_tasks": [
+    "investigate"
+  ],
+  "evidence": [
+    {
+      "id": "fixture-observation",
+      "claim": "Synthetic fixture marker movement; not an original-game finding",
+      "status": "observed",
+      "source": {
+        "identity": "203350e3c90f75b8b6f0d7c09057c596c2a6bbe0b2445a2f5bb08d1182001b9e",
+        "locator": "examples/fixture-subject.txt:1"
+      },
+      "verified": true,
+      "reviewer": "evidence-reviewer"
+    }
+  ],
+  "receipts": [
+    {
+      "task_id": "investigate",
+      "test": "scenario-replay",
+      "status": "pass",
+      "revision": "203350e3c90f75b8b6f0d7c09057c596c2a6bbe0b2445a2f5bb08d1182001b9e"
+    }
+  ],
+  "reviews": [
+    {
+      "task_id": "investigate",
+      "author": "builder",
+      "reviewer": "independent-reviewer",
+      "subject_digest": "203350e3c90f75b8b6f0d7c09057c596c2a6bbe0b2445a2f5bb08d1182001b9e",
+      "verdict": "pass"
+    }
+  ],
+  "uat": [
+    {
+      "task_id": "investigate",
+      "revision": "203350e3c90f75b8b6f0d7c09057c596c2a6bbe0b2445a2f5bb08d1182001b9e",
+      "status": "pass",
+      "reviewer": "synthetic-human-reviewer"
+    }
+  ],
+  "failures": [
+    {
+      "id": "failure-1",
+      "reproduction": "Synthetic example of an ambiguous task owner",
+      "evidence": "See ownership regression tests",
+      "expected": "Conflicting workers are not schedulable",
+      "actual": "A prior validator accepted an alias spelling"
+    }
+  ]
+}
